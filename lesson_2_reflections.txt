@@ -3,3 +3,7 @@ What happens when you initialize a repository? Why do you need to do it?
 Execute git init on the directory - this places .git file in the directory
 You need to add files to repository and commit.
 git status shows the status and a list of files
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+working directory - all files in dir stored on hard disk - could be untracked
+staging - files added to git to be tracked
