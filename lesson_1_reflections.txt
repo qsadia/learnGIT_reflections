@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The diff command displays the differences between two files. 
+It uses the - symbol to show the lines that are different in the first (old) file and the + symbol to show the lines that are different in the second (new) file. 
+By looking for the + symbols, the differences in the second file could be identified. 
+One has to scroll through the diff listing, identify all the differences between the two files, and find errors.
+In the example, this process was quite easy, as there was only one error, a typo. 
+However, for more complex differences, this feels like a time consuming and inefficient approach to locating bugs.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Easy access to the entire history of a file makes it much easier to revert back to an old version of a file. 
+This is advantageous when developing code as it allows one to experiement and try different approachesi without fear of losing track of the changes being made. 
+If an approach fails, one can easily revert back to an older and working version, and start again.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Manually Choosing:
+Pros - you can commit at logical points that makes the history easier to read and easier to revert to an older working version
+Cons - you may forget to commit and end up with committing a change that is too large
+
+Auto saving:
+Pros - the danger of forgetting to save is reduced
+Cons - the saves are likely to not be logical and thus make history difficult to read and to revert to an earlier working state.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is mostly used by programmers who often work on multiple related files.
+Changes often need to be made across all interrelated files and it is helpful to be able to save all changes together and revert them together if necessary.
+
+Google docs and other similar services, are mostly used for documents, such as word documents and excel spreadsheets, which are generally unrelated and changes in one are not likely to affect another document.
+
+git clone - clones an existing repository
+
+git log - displays the revision history and commit IDs
+
+git diff id1 id2 - shows the differences between two commits
+
+How might using version control make you more confident to make changes that could break something?
+
+You have ways of reverting to a previous version and an easy of checking the diffferences between different versions. 

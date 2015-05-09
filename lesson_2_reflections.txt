@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Execute git init on the directory - this places .git file in the directory
+You need to add files to repository and commit.
+git status shows the status and a list of files
