@@ -7,3 +7,6 @@ git status shows the status and a list of files
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 working directory - all files in dir stored on hard disk - could be untracked
 staging - files added to git to be tracked
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add files in logical groups & commit
