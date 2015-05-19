@@ -6,4 +6,6 @@ Why might you want to always pull changes manually rather than having Git automa
 
 To ensure you pull changes when it is appropriate for you and your work isnt overwritten unexpectedly.
 
-
+Notes:
+Set up SSH keys and two factor authentication.
+Using SSH instead of HTTPS.
