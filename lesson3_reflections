@@ -9,3 +9,8 @@ To ensure you pull changes when it is appropriate for you and your work isnt ove
 Notes:
 Set up SSH keys and two factor authentication.
 Using SSH instead of HTTPS.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Branch - branch of your existing repository for experimental purposes/collaboration - intended to merge with master
+Fork - A clone of someone else's repository which gives credit to the original aauthor and allows you to modify in your own repository - a GitHub feature
+Clone - a copy of another repository with no link to give any credit
